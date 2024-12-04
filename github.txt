@@ -125,4 +125,6 @@ remote 설정
  git push origin(리모트명) main(브랜치명)
   - 잘 안됐을 경우 git branch로 브랜치명이 맞는지 확인
   - 안맞다면 git branch -m 이전브랜치명 새로운브랜치명  => 이걸 통해 브랜치명 바꾸기
-   
+
+git pull 해도 실행 안될 경우
+  git push origin +main 을 통해 덮어쓰기를 진행한다.
